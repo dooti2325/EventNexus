@@ -2,8 +2,16 @@
 
 body {
     background-image: url(Gradient\ BG.jpg);
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url(Gradient\ BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 99vh;
     overflow-y: hidden;
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,8 +21,8 @@ body {
 .formBox {
      padding: 15px;
      text-align: center;
-     min-height: 50vh;
-     min-width: 50vw;
+     height: auto;
+     width: auto;
      display: flex;
      flex-direction: column;
      background: #f8f8f885;
@@ -47,13 +55,12 @@ body {
       width: 70vw;
       padding-left: 40px;
       font-size: 1em;
-      border-radius: 20px;
+      border-radius: 15px;
       outline: none;
-      border: 1px solid #b5adad;
       background-color: #f1f1f1;
   }
   div>input:focus {
-      border: 1px solid #6f6a6a;
+      border: 2px solid #7208a4;
   }
   form>div:hover>i {
       opacity: 1;
@@ -61,7 +68,7 @@ body {
   }
   textarea {
       border: none;
-      width: 70vw;
+      width: 90%;
       border-radius: 20px;
       padding: 10px;
       outline: none;
@@ -71,13 +78,14 @@ body {
       width: 50%;
       height: 5vh;
       color: #ffffff;
-      background: #00d689;
+      background: -webkit-linear-gradient(right,#aa00ff,#6f00ff,#5512fb,#3c00ff);;
       outline: none;
       border: none;
       border-radius: 10px;
       cursor: pointer;
       font-size: 0.8em;
   }
+  
   @media screen and (min-width:900px) {
       form>div input {
           width: 50vw;
