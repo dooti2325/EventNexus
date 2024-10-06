@@ -29,6 +29,11 @@ html,body{
   border-radius: 15px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
+.wrapper::-webkit-scrollbar{
+  display: none;
+}
+
 .wrapper .title-text{
   display: flex;
   width: 200%;
@@ -183,4 +188,8 @@ form .btn input[type="submit"]{
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+}
+
+.login{
+  overflow: hidden;
 }
