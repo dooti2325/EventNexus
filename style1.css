@@ -23,7 +23,7 @@ html,body{
   overflow-x: hidden;
   overflow-y: scroll;
   max-height: 70%;
-  background: #fff;
+  background: #f8f8f885;
   padding: 30px;
   border-radius: 15px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
