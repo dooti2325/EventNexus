@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
-    <link rel="stylesheet" href="event.css">
+    <link rel="stylesheet" href="event_reg.css">
 </head>
 <body>
     <div class="header">
-        <h4>EVENT<span>NEXUS</span></h4>
+        <h4>EVENT<span> NEXUS</span></h4>
         <ul class="navitems">
             <li><a href="index.html">HOME</a></li>
             <li><a href="past_events.html">EVENTS</a></li>
             <li><a href="awards.html">AWARDS</a></li>
             <li><a href="index2.html">CONTACT</a></li>
         </ul>
-        <img src="#" class="profile-img" alt="profile-img">
+        <img src="profile-img.png" class="profile-img" alt="profile-img">
     </div>
 
     <div class="form-container">
-        <form action="#">
+        <form action="" method="post" name="event-reg-form">
 
             <input type="text" class="input-field" name="Event-Name" id="Event-Name" placeholder="Event Name">
             <input type="text" class="input-field" name="Event-Desc" id="Event-Desc" placeholder="Event Description">
@@ -36,5 +36,6 @@
             <input type="submit" value="Register Event" class="btn">
         </form>
     </div>
+    <script src="GoogleSheets.js"></script>
 </body>
 </html>
