@@ -1,0 +1,85 @@
+/* navbar.css */
+
+.header {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h4 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.header span {
+  color: #ffeb3b;
+}
+
+.navitems {
+  list-style: none;
+  display: flex;
+}
+
+.navitems li {
+  margin: 0 15px;
+}
+
+.navitems a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navitems a:hover {
+  color: #ffeb3b;
+}
+
+.signup-btn {
+  background: #ffeb3b;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+  background: #fdd835;
+}
+
+.signup-btn a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navitems {
+      margin-top: 15px;
+      flex-wrap: wrap;
+  }
+
+  .navitems li {
+      margin: 5px 10px;
+  }
+
+  .signup-btn {
+      margin-top: 15px;
+  }
+}

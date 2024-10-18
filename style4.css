@@ -1,37 +1,70 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #a1a0a0;
   padding: 20px;
   margin: 0;
+  display: grid;
+  background-image: url(Gradient\ BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+nav {
+  background-color: #82707080;
+  padding: 10px 0;
+  border-radius: 2%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff0084;
 }
 
 h1 {
   text-align: center;
-  color: #333;
-  margin-bottom: 20px;
+  color: #000000;
+  margin: 20px 0;
 }
 
 .event-card {
-  background-color: white;
+  background-color: #891aff60;
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgb(121, 7, 162);
 }
 
 .event-title {
   font-size: 22px;
   font-weight: bold;
-  color: #444;
+  color: #000000;
 }
 
 .event-date {
   font-size: 14px;
-  color: #888;
+  color: #ffffff;
   margin: 5px 0;
 }
 
 .event-description {
   font-size: 16px;
-  color: #555;
+  color: #ff0084;
 }
