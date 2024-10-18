@@ -13,7 +13,7 @@ body {
 
 /* Header Styles */
 header {
-  background: linear-gradient(135deg, #007bff, #00d4ff); /* Gradient background */
+  background: -webkit-linear-gradient(left,	#aa00ff,#6f00ff,#5512fb,#3c00ff); /* Gradient background */
   color: white;
   text-align: center;
   padding: 40px 0;
@@ -72,7 +72,7 @@ h1 {
 footer {
   text-align: center;
   padding: 20px 0;
-  background: linear-gradient(135deg, #007bff, #00d4ff); /* Match header gradient */
+  background: -webkit-linear-gradient(left,	#aa00ff,#6f00ff,#5512fb,#3c00ff); /* Match header gradient */
   color: white;
   position: relative;
   bottom: 0;
