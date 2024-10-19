@@ -60,10 +60,23 @@ body {
     object-fit: cover;
 }
 
+.wrapper .title-text{
+    display: flex;
+    width: 200%;
+}
+.wrapper .title{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    margin-bottom: 15px;
+}
+
 .form-container {
     width: 100%;
     max-width: 500px;
-    background: #fff;
+    background: #ffffff41;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);

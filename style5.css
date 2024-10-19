@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence:BLED,XELA,YELA@3,-64,-38&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Lato", sans-serif;
+    --tertiary-font: "Roboto", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(Event.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding: 1vh 1.5vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container .header{
+    background-color: transparent;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    padding: 0vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.container .header h4{
+    font-family: var(--primary-font);
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+
+.container .header h4 span{
+    margin-left: 9px;
+    color: rgb(132, 255, 0);
+}
+
+.container .header .navitems{
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+}
+
+.hidden{
+    display: none;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.container .header .navitems li a{
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    color: #dedede;
+    font-size: 1.2vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.container .header .navitems li a:hover{
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.container .header .signup-btn{
+    background-color: #dedede;
+    padding: 8px 16px;
+    font-size: 1vw;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container .header .signup-btn:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+.container .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 1.2vh;
+}
+
+.container .content .title{
+    color: #ffffff;
+    font-size: clamp(25px,3vw,140px);
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 8cm;
+    background-color: rgba(36, 33, 41, 0.3);
+}
+
+.title{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 3,
+    "SCAN" 0,
+    "XELA" -64,
+    "YELA" -38;
+    padding: 10px;
+}
+
+.container .content .subtitle{
+    color: #ededed;
+    font-size: clamp(15px,1.3vw,100px);
+    font-weight: 600;
+    padding: 5px;
+    background-color: rgba(36, 33, 41, 0.3);
+}
+
+.subtitle{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 8cm;
+    font-variation-settings:
+    "BLED" 3,
+    "SCAN" 0,
+    "XELA" -64,
+    "YELA" -38;
+    padding: 10px;
+}
+
+.container .content .register-box{
+    margin: 5vh auto;
+    border-radius: 10cm;
+    background-color: rgba(198, 122, 207, 0.5);
+    
+}
+
+.container .content .register-box input{
+    background-color: rgba(77, 63, 93, 0.5);
+    width: 60vw;
+    height: 5vh;
+    padding: 20px;
+    border-radius: 10cm;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.container .content .register-box input:hover,
+.container .content .register-box input:focus,
+.container .content .register-box input:focus-within{
+    transform: scale(1.05);
+    background-color: #ffffff;
+}

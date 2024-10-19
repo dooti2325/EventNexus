@@ -1,81 +1,99 @@
-/* Basic Reset */
-body, h1, h2, p {
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f0f0f0;
 }
 
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  background-color: #f0f8ff; /* Light background color */
-  color: #333;
+/* Navigation bar styles */
+nav {
+  background-color: #333;
+  padding: 10px 0;
 }
 
-/* Header Styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Header styles */
 header {
-  background: -webkit-linear-gradient(left,	#aa00ff,#6f00ff,#5512fb,#3c00ff); /* Gradient background */
+  background-color: #4a4a4a;
   color: white;
   text-align: center;
-  padding: 40px 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 0;
 }
 
-h1 {
-  font-size: 2.5em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+header h1 {
+  margin: 0;
 }
 
-/* Awards Section Styles */
+/* Awards section styles */
 .awards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .award-card {
-  background: white;
-  border-radius: 12px; /* More rounded corners */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin: 15px;
   padding: 20px;
-  text-align: center;
   width: 300px;
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .award-card:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
 }
 
 .award-card img {
   width: 100%;
-  height: auto;
-  border-radius: 12px; /* Consistent border radius */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .award-card h2 {
-  margin: 15px 0 10px;
-  font-size: 1.6em;
-  color: #007bff; /* Match header color */
+  color: #333;
+  margin-top: 0;
 }
 
 .award-card p {
-  font-size: 1em;
   color: #666;
 }
 
-/* Footer Styles */
+/* Footer styles */
 footer {
-  text-align: center;
-  padding: 20px 0;
-  background: -webkit-linear-gradient(left,	#aa00ff,#6f00ff,#5512fb,#3c00ff); /* Match header gradient */
+  background-color: #333;
   color: white;
-  position: relative;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 }
