@@ -2,7 +2,7 @@
   box-sizing: border-box;
   }
 
-  body {
+body {
   font-family: Arial, sans-serif;
   background-color: #a1a0a0;
   padding: 20px;
@@ -51,7 +51,7 @@
 }
 
 .navitems a:hover {
-  color: #ffeb3b;
+  color: #aa3bff;
 }
 
 .header .btn{
@@ -69,6 +69,13 @@
 .header .btn:hover{
   cursor: pointer;
   background-color: #cbbb2f;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 h1 {
