@@ -78,6 +78,10 @@ body {
   object-fit: cover;
 }
 
+.profile-img :hover{
+  cursor: pointer;
+}
+
 h1 {
   text-align: center;
   color: #000000;
@@ -92,6 +96,9 @@ h1 {
   box-shadow: 0 2px 5px rgb(121, 7, 162);
 }
 
+.event-card :hover {
+  cursor: pointer;
+}
 
 .event-title {
   font-size: 22px;
