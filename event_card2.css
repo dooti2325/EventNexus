@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a1a0a0;
+  padding: 20px;
+  margin: 0;
+  display: grid;
+  background-image: url(Gradient\ BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header Styles */
+h1 {
+  color: #000000;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #000000;
+  margin-top: 20px;
+}
+
+/* Paragraph Styles */
+p {
+  color: #e787f0;
+  margin: 10px 0;
+}
+
+/* List Styles */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Link Styles */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.event-container {
+  background: rgba(203, 78, 216, 0.368);
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Time and Date Styles */
+.time, .date {
+  font-style: italic;
+  color: #e787f0;
+}
+
+/* Specific Class Styles */
+.evnt-description {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #444;
+}
+
+.event-details {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.register-button {
+  display: inline-block;
+  background: #ffcb3c;
+  color: #4e54c8;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.register-button:hover {
+  background: #ffc107;
+  transition: all 0.3s ease-in-out;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Workshop Registration</title>
+    <link rel="stylesheet" href="reg_page1.css">
+</head>
+<body>
+
+<div class="registration-container">
+    <h1>Coding Workshop</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required>
+        </div>
+        <div class="form-group">
+            <label for="year">Year of Study:</label>
+            <select id="year" name="year" required>
+                <option value="">Select Year</option>
+                <option value="first">I Year</option>
+                <option value="second">II Year</option>
+                <option value="third">III Year</option>
+                <option value="fourth">IV Year</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="language">Preferred Coding Language:</label>
+            <input type="text" id="language" name="language" placeholder="e.g., Python, JavaScript" required>
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>

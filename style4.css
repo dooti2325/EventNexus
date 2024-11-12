@@ -51,7 +51,7 @@ body {
 }
 
 .navitems a:hover {
-  color: #aa3bff;
+  color: #000000;
 }
 
 .header .btn{
@@ -63,7 +63,7 @@ body {
   border-radius: 10px;
   background-color: #ffeb3b;
   color: #000;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .header .btn:hover{
@@ -91,6 +91,7 @@ h1 {
   margin-bottom: 15px;
   box-shadow: 0 2px 5px rgb(121, 7, 162);
 }
+
 
 .event-title {
   font-size: 22px;

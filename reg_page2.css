@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(Gradient\ BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.registration-container {
+  background: rgba(203, 78, 216, 0.368);
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.registration-container h1 {
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #ffcb3c;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+select {
+width: 500px;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  margin-left: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcb3c;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ff08;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultural Fest Registration</title>
+    <link rel="stylesheet" href="reg_page2.css"
+</head>
+<body>
+
+<div class="registration-container">
+    <h1>Cultural Fest</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" required>
+        </div>
+        <div class="form-group">
+            <label for="event_type">Event Participation Type:</label>
+            <select id="event_type" name="event_type" required>
+                <option value="">Select Type</option>
+                <option value="dance">Dance Performance</option>
+                <option value="music">Music Performance</option>
+                <option value="game">Game/Activity</option>
+                <option value="attendee">Attendee (Non-Performer)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="group_name">Group Name (if applicable):</label>
+            <input type="text" id="group_name" name="group_name" placeholder="Enter group name if performing as a team">
+        </div>
+        <input type="submit" value="Register">
+    </form>
+</div>
+
+</body>
+</html>
