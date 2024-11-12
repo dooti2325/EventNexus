@@ -22,28 +22,19 @@ The project is an **Event Nexus Platform** designed to streamline the organizati
    - **Promotional Tools:** Options to share events on social media, create early-bird discounts, and offer group tickets.
    - **Sponsor and Vendor Integration:** Tools to connect with sponsors or vendors, including options to display logos and offer promotional space.
 
-5. **Networking and Engagement**
-   - **Social Media Integration:** Allowing organizers and attendees to share events, invite friends, and connect with each other.
-   - **Live Chat/Forum for Attendees:** For virtual events, attendees can engage in live discussions, ask questions, and network.
-   - **Post-Event Engagement:** Send follow-up emails, collect feedback, and provide event recordings or highlights.
-
-6. **Awards and Recognition**
+5. **Awards and Recognition**
    - **Winners Section:** Highlights past winners for competitive events, with profiles or brief bios if applicable.
    - **Achievement Badges:** Award badges for participation, achievements, or engagement, motivating attendees to be more active.
 
-7. **Comprehensive Contact and Support**
+6. **Comprehensive Contact and Support**
    - **Contact Page with Support Options:** Multiple contact methods, including a form, phone, email, and possibly live chat, to assist users and resolve issues.
    - **FAQ Section:** Common questions to help users navigate the platform independently.
 
-8. **Analytics and Reporting**
+7. **Analytics and Reporting**
    - **Attendance Insights for Organizers:** Provide real-time data on ticket sales, attendee demographics, and engagement.
    - **Post-Event Reports:** Detailed event analysis, including feedback, attendee satisfaction, and engagement metrics.
 
-9. **Monetization and Sponsorship Opportunities**
-   - **Sponsored Events and Ads:** Allow businesses to promote events or sponsor sections of the platform.
-   - **Merchandise and Upselling:** Options for organizers to sell event-related merchandise or offer upgrades.
-
-10. **Security and Privacy**
+8. **Security and Privacy**
    - **Secure Payment Processing:** Encryption for all transactions, ensuring a safe payment experience.
    - **Data Privacy Compliance:** Adheres to data protection regulations, keeping user information confidential and secure.
 
@@ -52,6 +43,6 @@ The project is an **Event Nexus Platform** designed to streamline the organizati
    - To offer **personalized event discovery** for attendees, making it easy to find events that align with their interests.
    - To enable **seamless networking and engagement** between attendees and organizers.
    - To establish **trust and security** in registration, ticketing, and payment handling.
-   - To create a **sustainable business model** through ticketing, sponsorship, and promotional services.
+   - To create a **sustainable business model** through ticketing, and promotional services.
 
 This Event Nexus platform is intended to be an all-in-one solution for event planning and participation, enhancing the experience for both organizers and attendees.
