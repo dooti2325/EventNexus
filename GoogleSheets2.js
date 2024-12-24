@@ -1,7 +1,7 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxdicK_PivSP4gJj177sydPwD-qRsU4o-vZ5vKeFZQTPPqYHie5MGVDE3Y7KaZNx0hL/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyGZauZ8I2-IAYdYlm-tbK32uAzAVa6AilX46c7A99lTWPSbAGb2FFt7Zp1d7ZTV4t0kQ/exec'
 
 
-const form = document.forms['coding-workshop']
+const form = document.forms['coding-workshop-reg']
 
 
 form.addEventListener('submit', e => {
